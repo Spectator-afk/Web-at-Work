@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+header {
+ text-align:center;
+ height:;
+ margin-top:-25px;
+}
+
+img {
+ height:150px;
+ width:100%;
+}
+
+ body {
+   background-image: url("file:///C:/Users/Anthony/Documents/Web%20@%20Work/images/body%20background.jpg");
+   padding: 0px;
+   margin:0px;
+   background-size: 100%;
+ } 
+ 
+ article {
+  background-color:white;
+  border:5px inset grey;
+  width:70%;
+  margin-left:18%;
+  margin-top: 20px;
+  margin-right:auto;
+  border-radius: 30px;
+  box-shadow: 12px 15px 15px 15px #181E51;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+  word-spacing: 4px;
+  font-size: 20px;
+  animation: transitionIn 0.5s;
+
+  }
+
+  .navigation:hover {
+    width: 200px;
+  }
+
+  .navigation ul {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .navigation ul li {
+    position: relative;
+    width: 60px;
+    list-style: none;
+  }
+
+  .navigation ul li:hover {
+    background: aquamarine;
+    width: 100%;
+    margin-left: -20px;
+  }
+
+  .navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .navigation ul li a .material-icons {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  p {
+    line-height: 25px;
+  }
+
+  ol {
+    line-height: 20px;
+  }
+
+  #twit {
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+  }
+
+  #ig {
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+  }
+
+  @keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
