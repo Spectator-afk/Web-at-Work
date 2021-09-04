@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sidebar Test</title>
+        <link rel="stylesheet" type="text/css" href="web-design.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <style>
+        .navigation {
+    margin-top: -30px;
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    background: linear-gradient( 45deg,#E0E9DC, #4DC917);
+    transition: 0.5s;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+    </style>
+    <body>
+        <header>
+    <h1 id="top"><img src="file:///C:/Users/Anthony/Documents/GitHub/web-at-work/images/WEB%20@%20WORK.png"></h1>
+        </header>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="file:///C:/Users/Anthony/Documents/GitHub/web-at-work/index.html">
+                        <span class="material-icons">home</span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/Anthony/Documents/GitHub/web-at-work/services.html">
+                        <span class="material-icons">miscellaneous_services</span>
+                        <span class="title">Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/Anthony/Documents/GitHub/web-at-work/Contacts.html">
+                         <span class="material-icons">contact_support</span>
+                        <span class="title">Contacts</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <article>
+            <h1>HOME PAGE</h1>
+            <hr>
+            <p>
+            Welcome to my webpage!<br> 
+            This website was personally made by me for advertising puproses. Nothing is stopping you from having a website similar to, or far more peronalized than mine. If you are looking for someone to design a business page,article,or even a blog, whether it be a single webpage or a multi-page website, as long as the website is within my capabilities it <em><strong>will</strong></em> be done.<br></p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </article>
+    </body>
+</html>
